@@ -1,0 +1,62 @@
+.container {
+    text-align: center; /* Center the content horizontally */
+  }
+  
+  h1 {
+    margin: 10px 0; 
+    padding: 0px;
+  }
+
+  h2{
+    margin: 5px;
+  }
+  
+  .column-container{
+    display: flex;
+    justify-content: center; /* Center the columns horizontally */
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .lenguaje {
+    border: 1px solid #ccc;
+  }
+  
+  .left {
+    background-color: lightgray;
+  }
+  
+  .right {
+    background-color: lightblue;
+  }
+  
+  .divPedirPalabra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 2px;
+  }
+
+    .divPedirPalabras label {
+  display: inline-block;
+  margin-top: 5px;
+    }
+
+.divPedirPalabras textarea {
+  display: block;
+  margin: 5px auto;
+}
+
+.divPedirPalabras button {
+  display: inline-block;
+  margin-top: 5px;
+}

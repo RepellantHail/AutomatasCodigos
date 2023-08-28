@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pra2.css">
+    <title>Practica 2</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Operaciones</h1>
+        <div class="column-container">
+            <div class="column lenguaje left">
+                <div class="divNumPalabras">
+                    <h2>Lenguaje 1</h2>
+                    <label for="inputNumPalabras">¿Cuántas palabras contiene el lenguaje 1?</label>
+                    <input type="number" min="1" id="nPal1">
+                    <button id="btnNPal1">Submit</button>
+                </div>
+                <!-- Div que solicita palabras -->
+                <div class="divPedirPalabras" style="display: none;" id="divIptPalabras1">
+                    <h2>Palabras del Lenguaje</h2>
+                    <label id="lblLen1"></label>
+                    <button id="btnPal1">Guardar Palabras</button>
+                    <textarea id="textarea1" cols="20" rows="5"></textarea>
+                </div>
+            </div>
+            <!--Lenguaje 2-->
+            <div class="column lenguaje right">
+                <div class="divNumPalabras">
+                    <h2>Lenguaje 2</h2>
+                    <label for="inputNumPalabras">¿Cuántas palabras contiene el lenguaje 2?</label>
+                    <input type="number" min="1" id="nPal2">
+                    <button id="btnNPal2">Submit</button>
+                </div>
+                <!-- Div que solicita palabras -->
+                <div class="divPedirPalabras" style="display: none;" id="divIptPalabras2">
+                    <h2>Palabras del Lenguaje</h2>
+                    <label id="lblLen2"></label>
+                    <button id="btnPal2">Guardar Palabras</button>
+                    <textarea id="textarea2" cols="20" rows="5"></textarea>
+                </div>
+            </div>
+        </div>
+        <div id="divResultado">
+            <h2>Resultado</h2>
+            <form>
+                <label for="menu">Seleccione Opcion:</label>
+                <select id="menu" name="menu">
+                  <option value="interseccion" selected>Interseccion</option>
+                  <option value="diferencia">Diferencia</option>
+                  <option value="concatenacion">Concatenacion</option>
+                  <option value="salir">Salir del Sistema</option>
+                </select>
+                <button type="submit" id="btnCalcular">Seleccionar</button>
+              </form>
+            <h3 id="pResultado"></h3>
+        </div>
+    </div>
+    <script src="pra2.js"></script>
+</body>
+</html>

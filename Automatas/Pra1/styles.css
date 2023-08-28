@@ -1,0 +1,45 @@
+body{
+    font-family: "StmpnkBody";
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    max-width: 100vw;
+    display: flexbox;
+}
+
+h1, h2{
+    margin: 0px;
+    display: block;
+    font-size: 60px;
+    color: navy;
+}
+
+label {
+    display: flex;
+    font-size: 30px;
+}
+
+span{
+    color: red;
+    font-family: 'Consolas';
+}
+
+#cerraduraDiv{
+    display: block;
+}
+
+.row{
+    display: flex;
+    overflow: auto;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.numPalabrasP{
+    max-width: 100vw;
+    white-space: pre; 
+    margin: 5px;
+}
